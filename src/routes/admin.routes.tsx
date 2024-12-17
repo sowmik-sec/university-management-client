@@ -29,16 +29,6 @@ const adminPaths2 = [
       },
     ],
   },
-  {
-    name: "Course Management",
-    children: [
-      {
-        name: "Offered Course",
-        path: "/admin/offered-course",
-        element: <CreateAdmin />,
-      },
-    ],
-  },
 ];
 
 export const adminPaths = [
