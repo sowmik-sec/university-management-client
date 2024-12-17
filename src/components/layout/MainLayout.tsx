@@ -50,7 +50,7 @@ const MainLayout = () => {
           }}
           className="demo-logo-vertical"
         >
-          <h1 style={{ height: "20px" }}>UM</h1>
+          <h1>UM</h1>
         </div>
         <Menu
           theme="dark"
