@@ -16,16 +16,16 @@ const router = createBrowserRouter([
     element: <App />,
     children: routeGEnerator(adminPaths),
   },
-  //   {
-  //     path: "/faculty",
-  //     element: <App />,
-  //     children: adminRoutes,
-  //   },
-  //   {
-  //     path: "/student",
-  //     element: <App />,
-  //     children: adminRoutes,
-  //   },
+  {
+    path: "/faculty",
+    element: <App />,
+    children: routeGEnerator(adminPaths),
+  },
+  {
+    path: "/student",
+    element: <App />,
+    children: routeGEnerator(adminPaths),
+  },
   {
     path: "/login",
     element: <Login />,
